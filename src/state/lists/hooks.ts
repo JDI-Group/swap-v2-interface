@@ -38,6 +38,7 @@ const EMPTY_LIST: TokenAddressMap = {
   // [ChainId.GANACHE]: {},
   [ChainId.MAINNET]: {},
   [ChainId.GENEVA]: {},
+  [ChainId.HUDSON]: {},
   [ChainId.WANNSEEMAINNET]: {},
   [ChainId.HARDHAT]: {}
 }

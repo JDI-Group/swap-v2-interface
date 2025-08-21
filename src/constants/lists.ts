@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/camelcase */
 import { ChainId } from '@uniswap/sdk'
 
 const version = Math.floor(Math.random() * (100 - 1)) + 1
@@ -9,14 +10,16 @@ const Router_MAP: { [key in ChainId]: string } = {
   [ChainId.MAINNET]: `https://raw.githubusercontent.com/MXCzkEVM/wannseeswap-tokenlist/main/tokenlist-mainnet.json?version=${version}`,
   [ChainId.GENEVA]: `https://raw.githubusercontent.com/MXCzkEVM/wannseeswap-tokenlist/main/tokenlist.json?version=${version}`,
   [ChainId.WANNSEEMAINNET]: `https://raw.githubusercontent.com/MXCzkEVM/wannseeswap-tokenlist/main/tokenlist-mainnet.json?version=${version}`,
-  [ChainId.HARDHAT]: `https://raw.githubusercontent.com/MXCzkEVM/wannseeswap-tokenlist/main/tokenlist-mainnet.json?version=${version}`
+  [ChainId.HARDHAT]: `https://raw.githubusercontent.com/MXCzkEVM/wannseeswap-tokenlist/main/tokenlist-mainnet.json?version=${version}`,
+  [ChainId.HUDSON]: `https://raw.githubusercontent.com/JDI-Group/swap-v2-tokens/main/tokenlist-hudson.json?version=${version}`
 }
 
 const Info_MAP: { [key in ChainId]: string } = {
   [ChainId.MAINNET]: `https://uniswap.info`,
   [ChainId.GENEVA]: `https://geneva-swap-info.moonchain.com`,
   [ChainId.WANNSEEMAINNET]: `https://swap-info.moonchain.com`,
-  [ChainId.HARDHAT]: ''
+  [ChainId.HARDHAT]: '',
+  [ChainId.HUDSON]: 'https://hudson-swap-info.mchain.ai'
 }
 
 const TaxToken_MAP: any = {
@@ -39,7 +42,8 @@ const TaxToken_MAP: any = {
     // TAILZ Coin
     '0xbccae479722530Ff9326FEc0cE8c15B4a79C6bD8'
   ],
-  [ChainId.HARDHAT]: []
+  [ChainId.HARDHAT]: [],
+  [ChainId.HUDSON]: []
 }
 
 // the Uniswap Default token list lives here

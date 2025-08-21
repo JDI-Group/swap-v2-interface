@@ -323,8 +323,8 @@ export default function WalletModal({
             rpcUrls: [chainRPC],
             chainName,
             nativeCurrency: {
-              name: 'MXC',
-              symbol: 'MXC',
+              name: 'MCH',
+              symbol: 'MCH',
               decimals: 18
             },
             blockExplorerUrls: [explorer]
