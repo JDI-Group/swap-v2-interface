@@ -127,6 +127,8 @@ export default function AddLiquidity({
     if (!chainId || !library || !account) return
     const router = getRouterContract(chainId, library, account)
 
+    console.log('router.address: ', router.address)
+
     const { [Field.CURRENCY_A]: parsedAmountA, [Field.CURRENCY_B]: parsedAmountB } = parsedAmounts
     if (!parsedAmountA || !parsedAmountB || !currencyA || !currencyB) {
       return
@@ -171,6 +173,9 @@ export default function AddLiquidity({
       ]
       value = null
     }
+
+    console.log('args: ', args)
+    console.log('value: ', value)
 
     setAttemptingTxn(true)
     await estimate(...args, value ? { value } : {})
