@@ -2706,10 +2706,10 @@
   resolved "https://registry.yarnpkg.com/@uniswap/lib/-/lib-1.1.1.tgz#0afd29601846c16e5d082866cbb24a9e0758e6bc"
   integrity sha512-2yK7sLpKIT91TiS5sewHtOa7YuM8IuBXVl4GZv2jZFys4D2sY7K5vZh6MqD25TPA95Od+0YzCVq6cTF2IKrOmg==
 
-"@uniswap/sdk@npm:mchswapv2-sdk@1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/mchswapv2-sdk/-/mchswapv2-sdk-1.2.5.tgz#812541a42171915ab4c0b1b147d2c3df07727d76"
-  integrity sha512-b1oUxHUO1mZZpEW8Ar3P0oYtSpNkfeZo1nl0fWUWoNHCYqQtdgQu3xiu0si0XUrT0jhhM766/RmFfQK0exMrGg==
+"@uniswap/sdk@npm:@moonchain/swap-v2-sdk@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@moonchain/swap-v2-sdk/-/swap-v2-sdk-1.2.2.tgz#97b5c8981e7fa95d24a0fda6f6a7cb7b7fe44e3b"
+  integrity sha512-mHR+Qg+WEULVUyryVM/jEmONL10MMLkClSLglmgNwg+lnC/zlO06s2uqEIbtjV5KZxqOvZfR883C9jG5rTKfeQ==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"
