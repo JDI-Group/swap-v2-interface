@@ -13,7 +13,8 @@ const Router_MAP: { [key in ChainId]: string } = {
   [ChainId.GENEVA]: '0x96adb4c80F6c934a20303d4b88f935F967299d5e',
   [ChainId.HUDSON]: '0x67a61c45d1B08Ee723CfE2D9f33eDd5Ee475e99C',
   [ChainId.WANNSEEMAINNET]: '0x757e5af94fC9b3d4035C2e6Cb1fD304F43c0A1A4',
-  [ChainId.HARDHAT]: '0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9'
+  [ChainId.HARDHAT]: '0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9',
+  [ChainId.MOONCHAIN]: '0xb20679F06Ab673D6A21fB4A6Fd023Af76aa2043d'
 }
 
 export const ROUTER_ADDRESS = Router_MAP[NETWORK_CHAIN_ID]
@@ -40,7 +41,8 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.HUDSON]: [WETH[ChainId.HUDSON]],
   [ChainId.GENEVA]: [WETH[ChainId.GENEVA]],
   [ChainId.WANNSEEMAINNET]: [WETH[ChainId.WANNSEEMAINNET]],
-  [ChainId.HARDHAT]: [WETH[ChainId.HARDHAT]]
+  [ChainId.HARDHAT]: [WETH[ChainId.HARDHAT]],
+  [ChainId.MOONCHAIN]: [WETH[ChainId.MOONCHAIN]]
 }
 
 // used to construct intermediary pairs for trading

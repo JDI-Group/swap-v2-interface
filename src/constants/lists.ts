@@ -11,7 +11,8 @@ const Router_MAP: { [key in ChainId]: string } = {
   [ChainId.GENEVA]: `https://raw.githubusercontent.com/MXCzkEVM/wannseeswap-tokenlist/main/tokenlist.json?version=${version}`,
   [ChainId.WANNSEEMAINNET]: `https://raw.githubusercontent.com/MXCzkEVM/wannseeswap-tokenlist/main/tokenlist-mainnet.json?version=${version}`,
   [ChainId.HARDHAT]: `https://raw.githubusercontent.com/MXCzkEVM/wannseeswap-tokenlist/main/tokenlist-mainnet.json?version=${version}`,
-  [ChainId.HUDSON]: `https://raw.githubusercontent.com/JDI-Group/swap-v2-tokens/main/tokenlist-hudson.json?version=${version}`
+  [ChainId.HUDSON]: `https://raw.githubusercontent.com/JDI-Group/swap-v2-tokens/main/tokenlist-hudson.json?version=${version}`,
+  [ChainId.MOONCHAIN]: `https://raw.githubusercontent.com/JDI-Group/swap-v2-tokens/main/tokenlist-mainnet.json?version=${version}`
 }
 
 const Info_MAP: { [key in ChainId]: string } = {
@@ -19,7 +20,8 @@ const Info_MAP: { [key in ChainId]: string } = {
   [ChainId.GENEVA]: `https://geneva-swap-info.moonchain.com`,
   [ChainId.WANNSEEMAINNET]: `https://swap-info.moonchain.com`,
   [ChainId.HARDHAT]: '',
-  [ChainId.HUDSON]: 'https://hudson-swap-info.mchain.ai'
+  [ChainId.HUDSON]: 'https://hudson-swap-info.mchain.ai',
+  [ChainId.MOONCHAIN]: 'https://swap-info.mchain.ai'
 }
 
 const TaxToken_MAP: any = {
