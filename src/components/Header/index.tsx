@@ -133,7 +133,8 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.HUDSON]: 'Hudson',
   [ChainId.GENEVA]: 'Geneva',
   [ChainId.WANNSEEMAINNET]: 'Moonchain Mainnet',
-  [ChainId.HARDHAT]: 'Hardhat'
+  [ChainId.HARDHAT]: 'Hardhat',
+  [ChainId.MOONCHAIN]: 'Moonchain'
 }
 
 export default function Header(props: any) {
