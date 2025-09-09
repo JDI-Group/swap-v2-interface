@@ -27,7 +27,8 @@ const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
   5167004: 'geneva-explorer.moonchain.com',
   177888: 'hudson-explorer.mchain.ai',
   18686: 'explorer.moonchain.com',
-  31337: 'hardhat'
+  31337: 'hardhat',
+  999888: 'explorer.mchain.ai'
 }
 
 export function getEtherscanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
