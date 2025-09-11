@@ -45,7 +45,8 @@ const TaxToken_MAP: any = {
     '0xbccae479722530Ff9326FEc0cE8c15B4a79C6bD8'
   ],
   [ChainId.HARDHAT]: [],
-  [ChainId.HUDSON]: []
+  [ChainId.HUDSON]: [],
+  [ChainId.MOONCHAIN]: []
 }
 
 // the Uniswap Default token list lives here
